@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+}
+
+/* Start the front home page */
+.first-section {
+    display: flex;
+}
+
+section {
+    padding-bottom: 100px;
+}
+
+.short-description,
+.short-description-image {
+    width: 50%;
+    padding: 5% 6%;
+}
+
+.heading-title-01,
+.heading-title-02 {
+    font-family: 'Titan One', cursive;
+    font-size: 40px;
+}
+
+.second-section-title {
+    text-align: center;
+}
+
+.heading-title-02 {
+    color: orange;
+}
+
+.second-section-title {
+    font-size: 40px;
+    color: #0d0119;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.second-section-title-number {
+    color: orange;
+}
+
+.short-description-image img {
+    width: 80%;
+}
+
+/* End of the front home page */
+
+/* This is the all button design */
+button {
+    padding: 10px 20px;
+    color: white;
+    background-color: tomato;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+/* End */
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: .7;
+}
+
+.head-title-border {
+    display: flex;
+}
+
+.left-border {
+    border: 4px solid tomato;
+    border-radius: 10px;
+    margin: 40px 0px;
+}
+
+.head-title {
+    padding-left: 10px;
+}
+
+.second-section-target,
+.second-section-target p,
+.service-section,
+.service-section p {
+    display: flex;
+    font-size: 14px;
+}
+
+.mission,
+.algorithm-deisgn {
+    background-color: #d8eff2;
+}
+
+.vission,
+.problem-solving {
+    background-color: #dedede;
+}
+
+.goals,
+.full-stack-development {
+    background-color: #f4f4f4;
+}
+
+.mission,
+.vission,
+.goals,
+.algorithm-deisgn,
+.problem-solving,
+.full-stack-development {
+    border-radius: 26px;
+    width: 31%;
+    padding-left: 25px;
+    font-size: 15px;
+    margin: 45px;
+}
+
+.second-section-target img,
+.algorithm-deisgn img,
+.problem-solving img,
+.full-stack-development img {
+    width: 40%;
+    padding-top: 15px;
+}
+
+.third-section {
+    display: flex;
+    padding: 0% 8%;
+    background-image: url(./images/shapes/shape-1.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position-y: bottom;
+}
+
+.third-section-img,
+.ts-short-description {
+    width: 50%;
+    margin: 5%;
+}
+
+.third-section-img img {
+    width: 80%;
+}
+
+.third-section-title {
+    font-size: 30px;
+}
+
+.last-section-img img {
+    width: 80%;
+}
+
+.last-section-img,
+.last-section-story {
+    width: 50%;
+    margin: 5%;
+}
+
+.last-section {
+    display: flex;
+    padding: 0% 8%;
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: bottom;
+    background-size: 20%;
+}
+
+.last-section-story h2 {
+    font-size: 30px;
+}
+
+.algorithm-deisgn,
+.problem-solving,
+.full-stack-development {
+    text-align: center;
+}
+
+h2.service-title {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #35353b;
+    font-family: sans-serif;
+}
+
+footer {
+    text-align: center;
+    background-color: #04000f;
+    padding: 30px;
+}
+
+footer h2 {
+    font-family: 'Titan One', cursive;
+    color: white;
+}
+
+footer .footer-number-color {
+    color: tomato;
+}
+
+footer p {
+    color: white;
+}
